@@ -51,8 +51,8 @@ if(USE_SYSTEM_ZSYNC2)
 else()
     function(import_zsync2)
         FetchContent_Declare(zsync2
-            GIT_REPOSITORY https://github.com/AppImageCommunity/zsync2
-            GIT_TAG 2.0.0-alpha-1-20241016
+            GIT_REPOSITORY https://github.com/cool2528/zsync2
+            GIT_TAG master
         )
         FetchContent_MakeAvailable(zsync2)
     endfunction()
